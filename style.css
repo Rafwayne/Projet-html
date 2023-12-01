@@ -12,15 +12,23 @@
     margin:0.5rem;
 }
 
+#NonInclus:hover li{
+    transform:scale(103%);
+    margin:0.5rem;
+    display:block;
+}
+
 li:hover{
     transform:translate(0, 10);
     transform:scale(105%);
     margin:0.5rem;
+    padding:0.5rem;
 }
 
 li{
     transition:0.4s;
     padding:0.1rem;
+    display:none;
 }
 
 #Inclus{
@@ -32,7 +40,13 @@ li{
     transition:0.4s;
 }
 
-#Inclus:hover{
+#Inclus:hover li{
+    transform:scale(103%);
+    margin:0.5rem;
+    display:block;
+}
+
+#Inclus:hover {
     transform:scale(103%);
     margin:0.5rem;
 }
@@ -51,6 +65,12 @@ li{
     margin:0.5rem;
 }
 
+#Options:hover li{
+    transform:scale(103%);
+    margin:0.5rem;
+    display:block;
+}
+
 #ArrivéeDépart{
     background-color:white;
     padding:1.5rem;
@@ -63,6 +83,12 @@ li{
 #ArrivéeDépart:hover{
     transform:scale(103%);
     margin:0.5rem;
+}
+
+#ArrivéeDépart:hover li{
+    transform:scale(103%);
+    margin:0.5rem;
+    display:block;
 }
 .flexbox{
     display:flex;
