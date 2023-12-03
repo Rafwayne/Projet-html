@@ -13,8 +13,6 @@
 }
 
 #NonInclus:hover li{
-    transform:scale(103%);
-    margin:0.5rem;
     display:block;
 }
 
@@ -41,8 +39,6 @@ li:hover{
 }
 
 #Inclus:hover li{
-    transform:scale(103%);
-    margin:0.5rem;
     display:block;
 }
 
@@ -66,8 +62,6 @@ li:hover{
 }
 
 #Options:hover li{
-    transform:scale(103%);
-    margin:0.5rem;
     display:block;
 }
 
@@ -86,10 +80,9 @@ li:hover{
 }
 
 #ArrivéeDépart:hover li{
-    transform:scale(103%);
-    margin:0.5rem;
     display:block;
 }
+
 .flexbox{
     display:flex;
     flex-direction:column;
@@ -97,18 +90,15 @@ li:hover{
 
 .table-container{
     overflow:scroll;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius:5px;
 }
 
 
 table{
     border-collapse: collapse;
     border : solid 5px black;
-    width:50%;
-    height:50%;
+    width:100%;
+    height:100%;
     overflow: scroll;
 }
 
