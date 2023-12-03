@@ -83,6 +83,10 @@ li:hover{
     display:block;
 }
 
+#CalendrierTarifs{
+    padding-bottom:1rem;
+}
+
 .flexbox{
     display:flex;
     flex-direction:column;
@@ -93,13 +97,12 @@ li:hover{
     border-radius:5px;
 }
 
-
 table{
     border-collapse: collapse;
     border : solid 5px black;
     width:100%;
-    height:100%;
     overflow: scroll;
+    justify-content:center;
 }
 
 th, td{
@@ -203,9 +206,6 @@ small {
     nav{
         display:none;
     }
-
-    
-
 }
 
 @font-face {
