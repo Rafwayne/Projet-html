@@ -76,12 +76,12 @@ html, body {
   }
 
   .ToDescription {
-    align-self:end ;  
+    margin-left: 2%;
 }
 
   #ToDescription {
-    height: 25%;
-    width: 50%;
+    height: auto;
+    width: 100%;
     z-index: 1;
     margin: 16px;
     margin-bottom: 200px;
