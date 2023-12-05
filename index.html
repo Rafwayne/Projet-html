@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>Le Bournazel</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gîte - Le Bournazel dans le lot</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Description de ma page">
+    <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
-
 </head>
 <body>
-    <header class="header"> 
-        <nav class="navbar">
-                <a href="#ToDescription"> Description </a>
-                <a href="#ToTarif"> Tarif </a> 
-                <a href="#ToLocalisation"> Localisation </a> 
-                <a href="https://www.google.fr/search?client=firefox-b&dcr=0&q=Le+Bournazel&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNy7PKLcrSUzQYpHi5kAWkFJS4eB9MnyAlKqLxmkFLiJMBCgTPGbCrfWq69JMHAAV65DluAAAA&sa=X&ved=0ahUKEwjD6KDkmLnXAhUQKuwKHUw_AbsQ6RMIdjAR&biw=1159&bih=622#lrd=0x12aced181bff4cd3:0xf9d282f2260730ce,1,,,">Avis</a>
-            </div>  
-            
+    <header>
+        <input type="checkbox" id="burger-toggle">
+            <label for="burger-toggle" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="container">
+          <img src="http://www.bournazel.org/Images/Logo.png" alt="Location de Vacances" Title="Location de Vacances" width="120" height="80">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Accueil" title="Aller à l'Accueil"> Accueil </a>
+                </li>
+                <li>
+                    <a href="#ToDescription" title="Aller à la description">Description </a>
+                </li>
+                <li>
+                    <a href="#ToTarif" title="Aller aux Tarifs"> Tarifs/Calendrier </a>
+                </li>
+                <li>
+                    <a href="#Activités" title="Aller aux Activités"> Activités </a>
+                </li>
+            </ul>
         </nav>
-
+    </div>
     </header>
-
     <main>
+        <h2 class="h2">Bienvenue sur le site du BOURNAZEL dans le Lot</h2>
+
         <iframe width="560" height="315" src="https://www.youtube.com/embed/H3dWiHfmVoQ?si=d7NaCv4Ewa-xI_Dm&amp;controls=1&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-            <h2 class="h2">Bienvenue sur le site du BOURNAZEL dans le Lot</h2>
-        </div>
     
         <div class="slider-container slider-1">
             <div class="slider">
@@ -63,7 +77,7 @@
                 <section id="CalendrierTarifs"> <!--  Début section Calendrier / Tarifs  -->
                     <h1>Calendrier et Tarifs</h1>
         
-                    <div class="container">
+                    <div class="CTcontainer">
                         <div class="flexbox">
                             <div id="JS">
                                 <ul>
@@ -150,70 +164,50 @@
 
     </main>
 
-
     <footer class="footer-distributed">
-
       <div class="footer-left">
-
-        <img src="images/Logo.png" alt="">
-
         <p class="footer-links">
-          <a href="#" class="link-1">Home</a>
-          
-          <a href="#">Descriptif</a>
-        
-          <a href="#">Tarif</a>
-        
-          <a href="#">A propos</a>
-          
-          <a href="#">Localisation</a>
-          
-          <a href="#">Contact</a>
+        <a href="#Accueil" title="Aller à l'Accueil">Accueil</a>
+        <a href="#ToDescritioon" title="Aller à la description">Description</a>
+        <a href="#ToTarif" title="Aller aux Tarifs"> Tarifs/Calendrier</a>
+        <a href="#Activités" title="Aller aux Activités">Activités</a>
+        <a href="mailto:support@company.com">Contact</a>
         </p>
-
+        Hugues : <a href="tel:0565368952">05 65 36 89 52</a><br>
+        Josianes : <a href="tel:0601970629">06 01 97 06 29</a><br>
+        Notre Mail : <a href="mailto:support@company.com">bournazel46@gmail.com</a><br><br><br><br><br><br>
         <p class="footer-company-name">Bournazel.org © 2008</p>
       </div>
 
       <div class="footer-center">
-
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>46360 Cras, Bournazel, Lot</span> GPS : E 1°32'27.94 / N 44°34'6.12 ou E 1.541095 / N 44.568366</p>
+        <div><br>
+          <p>Nos Partenaires :</p>
         </div>
-
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>+33 (0)5 65 36 89 52  /  +33 (0)6 01 97 06 29</p>
+        <div class="photo">
+          <img src="http://www.bournazel.org/Images/Partenaires/Logo_Nozieres.jpg" alt="Vins AOC de Cahors" Title="Vins AOC de Cahors" width="100" height="50">
+          <img src="http://www.bournazel.org/Images/Partenaires/LOGORD.JPG" alt="Randonnée & Diabète" Title="Randonnée & Diabète" width="100" height="50">
+          <img src="http://www.bournazel.org/Images/Partenaires/Logo%20Lot%20Dordogne.png" alt="Tourisme Lot" Title="Tourisme Lot" width="100" height="50">
+          <img src="http://www.bournazel.org/Images/Partenaires/CCCLM.jpg" alt="Office de tourisme de Causse de Labastide" Title="Office de tourisme de Causse de Labastide" width="100" height="50">
+          <img src="http://www.bournazel.org/Images/Partenaires/Aqua_Sol.jpg" alt="Aquarium Solution" Title="Aquarium Solution" width="100" height="50">
         </div>
-
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:support@company.com">bournazel46@gmail.com</a></p>
-        </div>
-
       </div>
 
       <div class="footer-right">
+        <br>
 
         <p class="footer-company-about">
-          <span>A propos du Bournazel</span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates laborum culpa quae perferendis. Exercitationem quia pariatur ducimus cum atque excepturi, maxime mollitia nihil vero commodi consectetur molestiae, voluptate beatae?        
+          <span>A propos du Bournazel :</span>
+          Josiane et Hugues vous accueillent en toute convivialité et vous souhaitent un très bon séjour parmi eux.<br><br>
+          <span>Site refait par :</span>
+          Slavko Zaric<br>
+          Raphaël Perreau<br>
+          Dan Belhassen<br>
+          Hishâm Razine<br>
         </p>
-
-        <div class="footer-icons">
-
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
-
-        </div>
 
       </div>
 
     </footer>
-
-        </div>
 
 </body>
 </html>
